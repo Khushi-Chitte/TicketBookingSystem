@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TBSDAOLayer">
+      <HintPath>..\TBSDAOLayer\bin\Debug\net8.0\TBSDAOLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="TBSException">
+      <HintPath>..\TBSException\bin\Debug\net8.0\TBSException.dll</HintPath>
+    </Reference>
+    <Reference Include="TBSUtility">
+      <HintPath>..\TBSUtility\bin\Debug\net8.0\TBSUtility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

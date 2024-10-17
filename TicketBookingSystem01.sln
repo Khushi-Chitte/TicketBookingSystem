@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBooking", "TicketBooking\TicketBooking.csproj", "{556362A9-F958-4FD0-BBA3-DCF4FB7DA5D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E} = {3D60DF9D-C968-48A6-A6E0-00F5982F569E}
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD} = {7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}
+		{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421} = {B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D} = {BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBSEntityModel", "TBSEntityModel\TBSEntityModel.csproj", "{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E} = {3D60DF9D-C968-48A6-A6E0-00F5982F569E}
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD} = {7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D} = {BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBSDAOLayer", "TBSDAOLayer\TBSDAOLayer.csproj", "{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E} = {3D60DF9D-C968-48A6-A6E0-00F5982F569E}
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD} = {7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBSException", "TBSException\TBSException.csproj", "{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBSUtility", "TBSUtility\TBSUtility.csproj", "{3D60DF9D-C968-48A6-A6E0-00F5982F569E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556362A9-F958-4FD0-BBA3-DCF4FB7DA5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556362A9-F958-4FD0-BBA3-DCF4FB7DA5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556362A9-F958-4FD0-BBA3-DCF4FB7DA5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556362A9-F958-4FD0-BBA3-DCF4FB7DA5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A77AC3-8EF3-4897-A41C-7AD9A6BED421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8A0E6A-0FC8-4B7E-9717-28B4CF9C9F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7342F4F4-9DBD-4DA7-99BD-8EA4F455AFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D60DF9D-C968-48A6-A6E0-00F5982F569E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D126057-FBE6-4C08-9B66-19ACF3731E01}
+	EndGlobalSection
+EndGlobal
